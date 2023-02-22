@@ -287,10 +287,10 @@ No media query for `xs` since this is the default in Bootstrap */
 
     @keyframes rotate{
         0% {
-            transform: perspective(800px) rotateY(0deg);
+            transform: perspective(900px) rotateY(0deg);
         }
         100%{
-            transform: perspective(800px) rotateY(360deg);
+            transform: perspective(900px) rotateY(360deg);
         }
     }
 
@@ -305,7 +305,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .slider span{
-        transform: rotateY(calc(var(--i)*45deg)) translateZ(450px);
+        transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
     }
 
 
